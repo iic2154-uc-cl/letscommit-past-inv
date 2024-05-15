@@ -1,0 +1,10 @@
+{
+    "OpenAI": {
+        "version": "V2.0.0",
+        "temperature": 0.7,
+        "prompt": [
+            {"role": "system", "content": "Assistant is a bot designed to generate one calification one the complexity of the diff commit to reveal how intricated is this. The calification goes from 1 to 5 where 1 is the most simple cahnges and 5 is the most complex. The format yos shoud generate is only a number without any other text."}
+        ]
+
+    }
+}

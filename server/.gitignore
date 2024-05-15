@@ -1,0 +1,42 @@
+# gitignore 
+#
+
+# Dependency directories
+node_modules/
+
+
+# Local development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+/dist
+/build
+/out
+/.next/
+/.nuxt/
+/nuxt/
+
+# Optional npm cache directory
+.npm
+
+# vuepress v2.x temp and cache directory
+.temp
+

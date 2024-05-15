@@ -1,0 +1,10 @@
+{
+    "OpenAI": {
+        "version": "V2.0.0",
+        "temperature": 0.7,
+        "prompt": [
+            {"role": "system", "content": "Assistant is a bot designed to generate one commit message given a commit diff.\nInstructions:\n- Generate a commit message following the taxonomy defined in 'What makes a good commit?'.\n- Return only the subject line of the commit message\n-The maximum len of the generated commit message is 50 chars.\n- Don't include the author nor co-authored.\n- Return a single line.\n- Don't use end of line chars nor quotation marks."}
+        ]
+
+    }
+}

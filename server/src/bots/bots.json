@@ -1,0 +1,10 @@
+[
+    {
+        "name": "bot",
+        "model": "gpt-4",
+        "sign": "gpt4",
+        "description": "This is a bot that uses GPT-4 to generate responses.",
+        "author": "OpenAI",
+        "holder": "OpenAI"
+    }
+]
