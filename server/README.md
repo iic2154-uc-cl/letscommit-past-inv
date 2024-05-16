@@ -1,6 +1,6 @@
 # Commit API Server - Guía de Usuario
 
-Este es el servidor backend para [Your System Name], responsable de manejar solicitudes API, gestionar datos y servir respuestas a la aplicación frontend.
+Este es el servidor backend, responsable de manejar solicitudes API, gestionar datos y servir respuestas a la aplicación frontend.
 
 ## Requisitos
 
