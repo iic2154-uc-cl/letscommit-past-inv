@@ -2,18 +2,35 @@
 
 El módulo `letscommit` está diseñado para simplificar el proceso de generar y confirmar cambios en tu repositorio Git con mensajes de confirmación generados automáticamente. Esta guía te guiará a través de la instalación, configuración y uso del módulo.
 
+## Requisitos
+
+Antes de instalar el módulo `letscommit`, asegúrate de tener instalados los siguientes requisitos:
+
+- Python 3.6 o superior
+- El módulo `requests` de Python
+- Git
+- 
 ## Instalación
 
 Para instalar el módulo `letscommit`, sigue estos pasos:
 
-1. Abre tu terminal o símbolo del sistema.
+1. Clona el repositorio:
 
-2. Ejecuta el siguiente comando para instalar el módulo usando `pip`:
+    ```bash
+    git clone https://github.com/iic2154-uc-cl/letscommit-past-inv.git
+    ```
 
-  ```python
-  pip install letscommit
-  ```
+2. Construye el paquete de distribución:
 
+    ```bash
+    python setup.py sdist
+    ```
+
+3. Instala el paquete generado:
+
+    ```bash
+    pip install dist/letscommit-0.1.0.tar.gz
+    ```
 
 ## Primeros Pasos
 
