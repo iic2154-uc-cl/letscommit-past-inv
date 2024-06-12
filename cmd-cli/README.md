@@ -1,111 +1,108 @@
-# Letscommit - Guía de Usuario
+# Let's Commit - User Guide
 
-El módulo `letscommit` está diseñado para simplificar el proceso de generar y confirmar cambios en tu repositorio Git con mensajes de confirmación generados automáticamente. Esta guía te guiará a través de la instalación, configuración y uso del módulo.
+The `letscommit` module is designed to simplify the process of generating and committing changes to your Git repository with automatically generated commit messages. This guide will walk you through the installation, configuration, and usage of the module.
 
-## Requisitos
+## Requirements
 
-Antes de instalar el módulo `letscommit`, asegúrate de tener instalados los siguientes requisitos:
+Before installing the `letscommit` module, make sure you have the following requirements installed:
 
-- Python 3.6 o superior
-- El módulo `requests` de Python
+- Python 3.6 or higher
+- Python `requests` module
 - Git
-- 
-## Instalación
 
-Para instalar el módulo `letscommit`, sigue estos pasos:
+## Installation
 
-1. Clona el repositorio:
+To install the `letscommit` module, follow these steps:
+
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/iic2154-uc-cl/letscommit-past-inv.git
     ```
 
-2. Construye el paquete de distribución:
+2. Build the distribution package:
 
     ```bash
     python setup.py sdist
     ```
 
-3. Instala el paquete generado:
+3. Install the generated package:
 
     ```bash
     pip install dist/letscommit-0.1.0.tar.gz
     ```
 
-## Primeros Pasos
+## Getting Started
 
-1. **Iniciar Sesión o Registrarse:**
+1. **Log In or Register:**
 
-Antes de usar el módulo `letscommit`, debes iniciar sesión o registrarte para obtener una cuenta:
+Before using the `letscommit` module, you need to log in or register for an account:
 
-- Para iniciar sesión, utiliza el comando:
+- To log in, use the command:
+
   ```
   letscommit --login
   ```
 
-- Para registrarte y crear una nueva cuenta, utiliza el comando:
+- To register and create a new account, use the command:
+- 
   ```
   letscommit --signup
   ```
 
-2. **Verificar el Token:**
+2. **Verify the Token:**
 
-Para comprobar si tu token es válido, ejecuta el siguiente comando:
+To check if your token is valid, run the following command:
 
   ```python
   letscommit --check
   ```
 
+## Generate Commits
 
-## Generar Confirmaciones
+Now that you are set up, you can start generating commits using the `letscommit` module.
 
-Ahora que estás configurado, puedes empezar a generar confirmaciones utilizando el módulo `letscommit`.
+1. **Add Changes:**
 
-1. **Agregar Cambios:**
+Before generating a commit, make sure to add the changes you want to commit using the `git add` command:
 
-Antes de generar una confirmación, asegúrate de agregar los cambios que deseas confirmar utilizando el comando `git add`:
   ```python
   git add archivo1 archivo2
   ```
 
+2. **Initiate Auto Commit:**
 
-2. **Iniciar Auto Commit:**
-
-Para generar automáticamente y confirmar cambios, utiliza el siguiente comando:
+To automatically generate and commit changes, use the following command:
 
   ```python
   letscommit --start
   ```
 
+The module will perform the following steps:
+- Retrieve changes from your Git repository.
+- Generate a list of commit messages.
+- Allow you to select a commit message from the list or provide a custom one.
+- Create a commit with the chosen message.
+- Send the commit information to the API.
 
-El módulo realizará los siguientes pasos:
-- Recuperará los cambios de tu repositorio Git.
-- Generará una lista de mensajes de confirmación.
-- Te permitirá seleccionar un mensaje de confirmación de la lista o proporcionar uno personalizado.
-- Creará una confirmación con el mensaje elegido.
-- Enviará la información de la confirmación a la API.
+3. **Push Changes:**
 
-3. **Realizar Push:**
-
-Después de generar la confirmación, asegúrate de realizar un push de tus cambios al repositorio remoto utilizando el comando `git push`:
+After generating the commit, make sure to push your changes to the remote repository using the `git push` command:
 
   ```python
   git push origin nombre_de_rama
   ```
 
+## Choose a Commit Message
 
-## Elegir un Mensaje de Confirmación
+The module will present you with a list of generated commit messages. You can choose one of the following options:
+- Enter `0` to provide a custom commit message.
+- Enter the number corresponding to one of the generated commit messages.
 
-El módulo te presentará una lista de mensajes de confirmación generados. Puedes elegir una de las opciones:
-- Ingresa `0` para proporcionar un mensaje de confirmación personalizado.
-- Ingresa el número correspondiente a uno de los mensajes de confirmación generados.
+## Additional Information
 
-## Información Adicional
-
-- Si encuentras algún problema o necesitas ayuda, puedes usar la opción `--help` para ver las opciones disponibles y ejemplos de uso:
+- If you encounter any issues or need help, you can use the `--help` option to see available options and usage examples:
 
   ```python
   letscommit --help
   ```
-
-- Recuerda que el módulo se basa en tu repositorio Git y en una API configurada. Asegúrate de tener la configuración de Git necesaria.
