@@ -1,28 +1,28 @@
-# Commit API Server - Guía de Usuario
+# Commit API Server - User Guide
 
-Este es el servidor backend, responsable de manejar solicitudes API, gestionar datos y servir respuestas a la aplicación frontend.
+This is the backend server, responsible for handling API requests, managing data, and serving responses to the frontend application.
 
-## Requisitos
+## Requirements
 
-Antes de instalar y ejecutar el servidor API, asegúrate de tener instalados los siguientes requisitos:
+Before installing and running the API server, make sure you have the following requirements installed:
 
-- Node.js (version 12 o superior)
-- npm (version 6 o superior)
-- PostgreSQL (o cualquier otra base de datos que estés utilizando)
+- Node.js (version 12 or higher)
+- npm (version 6 or higher)
+- PostgreSQL (or any other database you are using)
 
-## Instalación
+## Installation
 
-### Clonar el Repositorio
+### Clone the Repository
 
-Clona el repositorio del proyecto:
+Clone the project repository:
 
 ```bash
 git clone https://iic2154-uc-cl/letscommit-past-inv.git
 ```
 
-## Instalar Dependencias
+## Install Dependencies
 
-Navega al directorio del servidor y ejecuta el siguiente comando para instalar las dependencias:
+Navigate to the server directory and run the following command to install the dependencies:
 
 ```bash
 cd yourproject/server
@@ -30,9 +30,9 @@ npm install
 
 ```
 
-## Configuración del Entorno
+## Environment Configuration
 
-Crea un archivo .env en el directorio raíz del servidor y configura las variables de entorno necesarias. Un ejemplo de archivo .env podría verse así:
+Create a `.env` file in the root directory of the server and set up the necessary environment variables. An example of a `.env` file might look like this:
 
 ```env
 DB_HOST=your_db_host
@@ -43,14 +43,15 @@ JWT_SECRET=your_jwt_secret
 PORT=your_port
 ```
 
-## Ejecución del Servidor
+## Running the Server
 
-Para ejecutar el servidor en modo desarrollo, utiliza el siguiente comando:
+To run the server in development mode, use the following command:
 
 ```bash
 npm start
 ```
 
-Para preparar y ejecutar el servidor en producción, sigue estos pasos:
-1. Asegúrate de tener todas las variables de entorno configuradas en el archivo .env.
-2. Inicia el servidor utilizando un administrador de procesos como pm2.
+To prepare and run the server in production, follow these steps:
+1. Ensure all environment variables are set in the `.env` file.
+2. Start the server using a process manager like pm2:
+
