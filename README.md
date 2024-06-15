@@ -46,7 +46,7 @@ Students often struggle with writing clear and concise commit messages, which ca
 
 ### Solution
 
-`letscommit-past-inv` uses Generative AI to analyze code changes and provide three commit message suggestions. For example, if a student makes changes to improve the performance of a function, the tool might suggest:
+`letscommit` uses Generative AI to analyze code changes and provide three commit message suggestions. For example, if a student makes changes to improve the performance of a function, the tool might suggest:
 
 1. "Optimize function for better performance."
 2. "Refactor code to enhance efficiency."
