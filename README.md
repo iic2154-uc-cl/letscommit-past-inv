@@ -10,7 +10,6 @@
 - [Dependencies](#dependencies)
 - [Support](#support)
 - [References](#references)
-- [Example](#example)
 
 ## Description
 
@@ -29,6 +28,8 @@ Current system version: 1.0.0
 - Python 3.6+
 - `requests` module
 - Git
+- Node
+- Postgresql
 
 ## Support
 
@@ -37,8 +38,6 @@ For support, please contact us at aneyem@uc.cl
 ## References
 
 - SEIS-Lab: [http://www.seislab.cl/](http://www.seislab.cl/)
-
-## Example
 
 ### Problem
 
