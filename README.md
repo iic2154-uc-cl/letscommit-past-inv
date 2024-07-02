@@ -29,6 +29,8 @@ Current system version: 1.0.0
 - `requests` module
 - Git
 - Node
+- Npm
+- React
 - Postgresql
 
 ## Support
