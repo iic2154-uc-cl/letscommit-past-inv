@@ -7,8 +7,7 @@ import subprocess
 # from getpass import getpass
 
 global TOKEN_FILE
-API_URL = "http://aicommit.ing.puc.cl"
-# API_URL = "http://localhost:8080"
+API_URL = "http://localhost:8080"
 TOKEN_FILE = os.path.expanduser("~/letscommit/access_token.txt")
 
 
@@ -104,14 +103,14 @@ def auto_commit():
 
     # We will ask the user to choose a commit message or make one
     print(">  Choose a commit message:")
-    print(f">  {0}. Custom commit message")
+    print(f">  {0}. Commit a custom message")
     for i, message in enumerate(generated):
         print(f">  {i+1}. {message.get('bot')} says: {message.get('message')}")
 
     choice = input(">  Enter your choice: ")
 
     if choice == str(0):
-        commit_message = input(">  Enter your custom commit message: ")
+        commit_message = input(">  Enter your custom message: ")
         selection = "author"
         author_message = commit_message
         giver = "author"
