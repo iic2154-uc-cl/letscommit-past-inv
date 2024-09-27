@@ -1,3 +1,71 @@
+## Description
+
+In software engineering, effective commit messages are crucial for maintaining a clear project history, facilitating collaboration, and improving codebase management. However, students in capstone projects often struggle with crafting meaningful commit messages. To address this, we propose leveraging Generative AI to enhance the quality of commit messages. This approach involves analyzing code changes and offering three possible commit message options, along with the flexibility for students to create their own messages based on the suggestions.
+
+
+
+### Problem
+
+Students often struggle with writing clear and concise commit messages, which can lead to poorly documented project histories.
+
+
+
+## License
+
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+## Available Scripts
+
+In the project directory, you can run:
+
+
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+
+
+### Clone the Repository
+
+Clone the project repository:
+
+```bash
+git clone https://iic2154-uc-cl/letscommit-past-inv.git
+```
+
+
+
+## Install Dependencies
+
+Navigate to the server directory and run the following command to install the dependencies:
+
+```bash
+cd yourproject/server
+npm install
+
+```
+
+# Commit API Server - User Guide
+
+This is the backend server, responsible for handling API requests, managing data, and serving responses to the frontend application.
+
+
+
 # Table of Contents
 
 - [letscommit-past-inv](#letscommit-past-inv)
@@ -38,9 +106,13 @@
   - [Choose a Commit Message](#choose-a-commit-message)
   - [Additional Information](#additional-information)
 
+
+
 # letscommit-past-inv
 
 ![image](https://github.com/iic2154-uc-cl/letscommit-past-inv/assets/48336498/bf22a336-867b-4724-aafe-cf7d15801469)
+
+
 
 ## Table of Contents
 
@@ -51,13 +123,7 @@
 - [Support](#support)
 - [References](#references)
 
-## Description
 
-In software engineering, effective commit messages are crucial for maintaining a clear project history, facilitating collaboration, and improving codebase management. However, students in capstone projects often struggle with crafting meaningful commit messages. To address this, we propose leveraging Generative AI to enhance the quality of commit messages. This approach involves analyzing code changes and offering three possible commit message options, along with the flexibility for students to create their own messages based on the suggestions.
-
-### Problem
-
-Students often struggle with writing clear and concise commit messages, which can lead to poorly documented project histories.
 
 ### Solution
 
@@ -69,13 +135,13 @@ Students often struggle with writing clear and concise commit messages, which ca
 
 Students can choose one of these suggestions or use them as a basis to craft their own commit message.
 
-## License
 
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
 
 ## Version
 
 Current system version: 1.0.0
+
+
 
 ## Dependencies
 
@@ -87,9 +153,13 @@ Current system version: 1.0.0
 - React
 - Postgresql
 
+
+
 ## Support
 
 For support, please contact us at aneyem@uc.cl
+
+
 
 ## References
 
@@ -101,13 +171,7 @@ For support, please contact us at aneyem@uc.cl
 _Code last updated: January 13, 2024_
 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -117,10 +181,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
 
 ### `npm run build`
 
@@ -132,15 +200,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -148,34 +208,44 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+
 
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+
+
 ### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+
 
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+
+
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+
 
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# Commit API Server - User Guide
 
-This is the backend server, responsible for handling API requests, managing data, and serving responses to the frontend application.
 
 ## Requirements
 
@@ -185,25 +255,11 @@ Before installing and running the API server, make sure you have the following r
 - npm (version 6 or higher)
 - PostgreSQL (or any other database you are using)
 
+
+
 ## Installation
 
-### Clone the Repository
 
-Clone the project repository:
-
-```bash
-git clone https://iic2154-uc-cl/letscommit-past-inv.git
-```
-
-## Install Dependencies
-
-Navigate to the server directory and run the following command to install the dependencies:
-
-```bash
-cd yourproject/server
-npm install
-
-```
 
 ## Environment Configuration
 
@@ -217,6 +273,8 @@ DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
 PORT=your_port
 ```
+
+
 
 ## Running the Server
 
@@ -232,9 +290,13 @@ To prepare and run the server in production, follow these steps:
 
 
 
+
+
 # Let's Commit - User Guide
 
 The `letscommit` module is designed to simplify the process of generating and committing changes to your Git repository with automatically generated commit messages. This guide will walk you through the installation, configuration, and usage of the module.
+
+
 
 ## Requirements
 
@@ -243,6 +305,8 @@ Before installing the `letscommit` module, make sure you have the following requ
 - Python 3.6 or higher
 - Python `requests` module
 - Git
+
+
 
 ## Installation
 
@@ -265,6 +329,8 @@ To install the `letscommit` module, follow these steps:
     ```bash
     pip install dist/letscommit-0.1.0.tar.gz
     ```
+
+
 
 ## Getting Started
 
@@ -291,6 +357,8 @@ To check if your token is valid, run the following command:
   ```python
   letscommit --check
   ```
+
+
 
 ## Generate Commits
 
@@ -327,11 +395,15 @@ After generating the commit, make sure to push your changes to the remote reposi
   git push origin nombre_de_rama
   ```
 
+
+
 ## Choose a Commit Message
 
 The module will present you with a list of generated commit messages. You can choose one of the following options:
 - Enter `0` to provide a custom commit message.
 - Enter the number corresponding to one of the generated commit messages.
+
+
 
 ## Additional Information
 
