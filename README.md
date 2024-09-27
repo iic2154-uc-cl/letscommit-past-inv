@@ -236,7 +236,6 @@ The module will perform the following steps:
 - Generate a list of commit messages.
 - Allow you to select a commit message from the list or provide a custom one.
 - Create a commit with the chosen message.
-- Send the commit information to the API.
 
 3. **Push Changes:**
 
