@@ -92,7 +92,7 @@ This is the backend server, responsible for handling API requests, managing data
 Clone the project repository:
 
 ```bash
-git clone https://iic2154-uc-cl/letscommit-past-inv.git
+git clone https://github.com/iic2154-uc-cl/letscommit-past-inv
 ```
 
 ## Install Dependencies
